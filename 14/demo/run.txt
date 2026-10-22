@@ -1,0 +1,42 @@
+=== Автосервис: FastAPI REST API ===
+
+GET /cars?limit=10 (список, пагинация)
+HTTP 200
+{"items":[{"id":1,"brand":"Toyota","model":"Camry","year":2018,"owner":"Иванов","mileage":95000,"category":"sedan","condition":"good"},{"id":2,"brand":"Hyundai","model":"Solaris","year":2015,"owner":"Петрова","mileage":120000,"category":"sedan","condition":"repair"},{"id":3,"brand":"Kia","model":"Rio","year":2020,"owner":"Сидоров","mileage":50000,"category":"hatchback","condition":"good"},{"id":4,"brand":"Toyota","model":"Rav4","year":2016,"owner":"Кузнецов","mileage":150000,"category":"suv","condition":"need_diagnostics"}],"total":4}
+
+GET /cars?category=sedan&sort=mileage (фильтр+сортировка)
+HTTP 200
+{"items":[{"id":1,"brand":"Toyota","model":"Camry","year":2018,"owner":"Иванов","mileage":95000,"category":"sedan","condition":"good"},{"id":2,"brand":"Hyundai","model":"Solaris","year":2015,"owner":"Петрова","mileage":120000,"category":"sedan","condition":"repair"}],"total":2}
+
+POST /cars (создание, 201)
+HTTP 201
+{"id":5,"brand":"Skoda","model":"Octavia","year":2021,"owner":"Новиков","mileage":25000,"category":"sedan","condition":"good"}
+
+PATCH /cars/5 (частичное изменение)
+HTTP 200
+{"id":5,"brand":"Skoda","model":"Octavia","year":2021,"owner":"Новиков","mileage":30000,"category":"sedan","condition":"good"}
+
+DELETE /cars/5
+HTTP 204
+
+GET /cars/in-repair (автомобили в ремонте)
+HTTP 200
+[{"id":2,"brand":"Hyundai","model":"Solaris","year":2015,"owner":"Петрова","mileage":120000,"category":"sedan","condition":"repair"},{"id":4,"brand":"Toyota","model":"Rav4","year":2016,"owner":"Кузнецов","mileage":150000,"category":"suv","condition":"need_diagnostics"}]
+
+GET /cars/statistics
+HTTP 200
+{"count":4,"average_mileage":103750.0,"average_year":2017.2,"cars_in_repair":1,"by_category":{"sedan":2,"hatchback":1,"suv":1}}
+
+GET /cars/search/toyota (асинхронный поиск)
+HTTP 200
+[{"id":1,"brand":"Toyota","model":"Camry","year":2018,"owner":"Иванов","mileage":95000,"category":"sedan","condition":"good"},{"id":4,"brand":"Toyota","model":"Rav4","year":2016,"owner":"Кузнецов","mileage":150000,"category":"suv","condition":"need_diagnostics"}]
+
+GET /cars/9999 (404)
+HTTP 404
+{"detail":"Car not found"}
+
+GET /health
+HTTP 200
+{"status":"healthy"}
+
+[exit code: 0]

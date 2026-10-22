@@ -1,0 +1,50 @@
+=== Фитнес-клуб: Flask веб-приложение ===
+
+GET / (главная)
+HTTP 200
+HTML: Панель управления фитнес-клубом
+
+GET /clients (список)
+HTTP 200
+HTML: Клиенты
+
+GET /clients?search=Иван (поиск)
+HTTP 200
+HTML: Клиенты
+
+GET /statistics (статистика)
+HTTP 200
+HTML: Статистика фитнес-клуба
+
+GET /clients/1 (детальная)
+HTTP 404
+HTML: Ошибка 404
+
+GET /clients/999 (404)
+HTTP 404
+HTML: Ошибка 404
+
+GET /api/clients
+HTTP 200
+[]
+
+POST /api/clients (создание)
+HTTP 201
+{"id":1}
+
+GET /api/clients/7
+HTTP 404
+{"error":"Client not found"}
+
+PUT /api/clients/7 (изменение)
+HTTP 404
+{"error":"Client not found"}
+
+DELETE /api/clients/7
+HTTP 404
+
+GET /trainings/book (форма)
+HTTP 200
+HTML: Запись на тренировку
+
+[exit code: 0]

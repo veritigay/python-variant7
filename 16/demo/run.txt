@@ -1,0 +1,21 @@
+=== Автосервис: Django (модели Client, Car, Service, Order) ===
+
+models.py проверен синтаксически (py_compile) и содержит:
+- Client (имя, телефон)
+- Car (марка, модель, год, владелец FK, пробег, состояние)
+- Service (вид работ, ставка за час)
+- Order (автомобиль FK, услуга FK, часы, статус, created_at)
+- метод total_cost() заказа-наряда
+- ORM-функция orm_examples(): all, filter, exclude, get, order_by,
+  count, exists, aggregate, annotate, select_related
+- админ-панель CarAdmin и OrderAdmin
+
+Полноценный запуск выполняется в Django-проекте:
+  django-admin startproject config .
+  python manage.py startapp autoservice
+  (модели переносятся в autoservice/models.py)
+  python manage.py makemigrations / migrate
+  python manage.py createsuperuser / runserver
+
+[полный запуск требует Django-проекта и БД]
+[exit code: 0]

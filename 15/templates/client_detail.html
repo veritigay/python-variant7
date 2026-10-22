@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Клиент {{ client.name }}{% endblock %}
+{% block content %}
+<h1>{{ client.name }}</h1>
+<table>
+  <tr><th>ID</th><td>{{ client.id }}</td></tr>
+  <tr><th>Возраст</th><td>{{ client.age }}</td></tr>
+  <tr><th>Телефон</th><td>{{ client.phone }}</td></tr>
+  <tr><th>Абонемент до</th><td>{{ client.subscription_expire }}</td></tr>
+</table>
+
+<h2>Тренировки</h2>
+<table>
+  <tr><th>Дата</th><th>Тренер</th><th>Длительность</th></tr>
+  {% for t in client.trainings %}
+  <tr>
+    <td>{{ t.date }}</td>
+    <td>{{ t.trainer.name }}</td>
+    <td>{{ t.duration }} мин</td>
+  </tr>
+  {% else %}
+  <tr><td colspan="3">Тренировок нет.</td></tr>
+  {% endfor %}
+</table>
+
+<p>
+  <a href="/clients/{{ client.id }}/edit">Изменить</a>
+  <form method="post" action="/clients/{{ client.id }}/delete" class="inline">
+    <button class="danger" type="submit">Удалить</button>
+  </form>
+</p>
+{% endblock %}

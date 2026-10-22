@@ -1,0 +1,20 @@
+[
+    {
+        "number": "40817 1",
+        "owner": "Иванов И.",
+        "balance": 50000.0,
+        "account_type": "текущий"
+    },
+    {
+        "number": "42305 7",
+        "owner": "Петрова А.",
+        "balance": 120000.0,
+        "account_type": "накопительный"
+    },
+    {
+        "number": "40817 2",
+        "owner": "Сидоров К.",
+        "balance": 3000.0,
+        "account_type": "текущий"
+    }
+]

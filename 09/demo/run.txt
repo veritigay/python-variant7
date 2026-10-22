@@ -1,0 +1,18 @@
+=== Склад: TCP-клиент-сервер (JSON-протокол) ===
+Сервер: C:\Users\New PC\Documents\MultiTool\HomeChats\Chat\Python-variant7\09\server.py
+
+> list
+{"status": "ok", "data": [{"id": 1, "name": "Масло моторное", "category": "смазка", "quantity": 120, "min_quantity": 50, "low_stock": false}, {"id": 2, "name": "Фильтр воздушный", "category": "фильтры", "quantity": 5, "min_quantity": 20, "low_stock": true}, {"id": 3, "name": "Тормозные колодки", "category": "тормоза", "quantity": 40, "min_quantity": 15, "low_stock": false}, {"id": 4, "name": "Свечи зажигания", "category": "электроника", "quantity": 8, "min_quantity": 25, "low_stock": true}, {"id": 5, "name": "Антифриз", "category": "жидкости", "quantity": 60, "min_quantity": 30, "low_stock": false}]}
+> stock_check
+{"status": "ok", "data": {"low_stock_items": [{"id": 2, "name": "Фильтр воздушный", "category": "фильтры", "quantity": 5, "min_quantity": 20, "low_stock": true}, {"id": 4, "name": "Свечи зажигания", "category": "электроника", "quantity": 8, "min_quantity": 25, "low_stock": true}], "total_quantity": 233}}
+> create {name: 'Моторное масло', quantity: 10}
+{"status": "ok", "data": {"id": 6, "name": "Моторное масло", "category": "жидкости", "quantity": 10, "min_quantity": 5, "low_stock": false}}
+> get 1
+{"status": "ok", "data": {"id": 1, "name": "Масло моторное", "category": "смазка", "quantity": 120, "min_quantity": 50, "low_stock": false}}
+> ping
+{"status": "ok", "data": {"message": "pong"}}
+> unknown  =>  должен вернуть error
+{"status": "error", "error": "Неизвестная команда: unknown"}
+
+[протокол newline-delimited JSON; сервер обслуживает несколько клиентов в потоках]
+[exit code: 0]

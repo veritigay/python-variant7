@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}{% if client %}Редактирование клиента{% else %}Новый клиент{% endif %}{% endblock %}
+{% block content %}
+<h1>{% if client %}Редактирование клиента{% else %}Создание клиента{% endif %}</h1>
+<form method="post" class="form vertical">
+  <label>Имя
+    <input name="name" value="{{ client.name if client else '' }}" required>
+  </label>
+  <label>Возраст
+    <input name="age" type="number" min="14" max="100"
+           value="{{ client.age if client else '' }}" required>
+  </label>
+  <label>Телефон
+    <input name="phone" value="{{ client.phone if client else '' }}" required>
+  </label>
+  <label>Абонемент до (ГГГГ-ММ-ДД)
+    <input name="expire" value="{{ client.subscription_expire if client else '' }}" required>
+  </label>
+  <button type="submit">Сохранить</button>
+</form>
+{% endblock %}

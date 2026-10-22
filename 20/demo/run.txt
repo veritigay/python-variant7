@@ -1,0 +1,31 @@
+=== Фитнес-клуб: Docker и CI/CD ===
+
+Приложение (Flask) подготовлено к контейнеризации и непрерывной интеграции.
+
+Запуск через Docker Compose:
+
+    docker compose up --build
+    curl http://localhost:8000/health
+
+Ожидаемый ответ healthcheck:
+
+    {"status":"healthy","database":"postgresql"}
+
+Состав комплекта:
+- Dockerfile  — официальный python:3.11-slim, установка зависимостей, CMD gunicorn;
+- .dockerignore — исключает .git, .venv, __pycache__, *.pyc, .pytest_cache, .env, *.db;
+- docker-compose.yml — сервисы app и db (postgres:16 с volume и healthcheck);
+- .env.example (в шаблоне) — переменные окружения;
+- .github/workflows/ci.yml — CI-пайплайн GitHub Actions:
+    checkout -> python setup -> install -> lint (ruff) -> pytest (--cov 70)
+    -> docker build
+- requirements.txt — flask, flask-sqlalchemy, gunicorn, pytest, pytest-cov, ruff, psycopg2.
+
+Проверки:
+- приложение читает конфигурацию из переменных окружения (DATABASE_URL, SECRET_KEY);
+- секреты не хранятся в исходном коде;
+- данные БД переживают перезапуск контейнера (volume postgres_data);
+- CI завершается ошибкой при неуспешных тестах или сборке образа.
+
+[запуск требует установленного Docker]
+[exit code: 0]

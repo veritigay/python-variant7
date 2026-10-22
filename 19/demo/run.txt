@@ -1,0 +1,25 @@
+=== Фитнес-клуб: микросервисы (вариант 7) ===
+Сервисы: client-service, subscription-service, training-service, gateway
+
+1. Запись клиента с действительным абонементом:
+  [Notification] TrainingBooked: {'id': 1, 'client_id': 1, 'trainer': 'Тренер А', 'date': '2026-10-25'}
+  [Analytics] TrainingBooked: {'id': 1, 'client_id': 1, 'trainer': 'Тренер А', 'date': '2026-10-25'}
+  [Log] TrainingBooked -> {"id": 1, "client_id": 1, "trainer": "Тренер А", "date": "2026-10-25"}
+   Создана тренировка #1
+
+2. Клиент с просроченным абонементом:
+   Ошибка: Абонемент клиента 2 не действителен
+
+3. Сервис абонементов временно недоступен (Retry + Circuit Breaker):
+   Попытка 1: Не удалось проверить абонемент клиента 3; CircuitBreaker(sta
+   Попытка 2: Не удалось проверить абонемент клиента 3; CircuitBreaker(sta
+   Попытка 3: Не удалось проверить абонемент клиента 3; CircuitBreaker(sta
+   Попытка 4: Submission service temporarily unavailable (circuit open)
+   Попытка 5: Submission service temporarily unavailable (circuit open)
+   Состояние: CircuitBreaker(state=OPEN, failures=3)
+
+Сервис восстановлен:
+  [Notification] TrainingBooked: {'id': 2, 'client_id': 3, 'trainer': 'Тренер В', 'date': '2026-10-26'}
+  [Analytics] TrainingBooked: {'id': 2, 'client_id': 3, 'trainer': 'Тренер В', 'date': '2026-10-26'}
+  [Log] TrainingBooked -> {"id": 2, "client_id": 3, "trainer": "Тренер В", "date": "2026-10-26"}
+   Тренировка #2 создана, CircuitBreaker(state=CLOSED, failures=0)

@@ -1,0 +1,43 @@
+=== Фитнес-клуб: итоговый проект (FastAPI + pytest) ===
+
+Бизнес-правила и API протестированы автоматически (pytest). Запуск тестов:
+
+    pip install fastapi uvicorn pydantic pytest httpx
+    python -m pytest -v
+
+Ожидаемый результат тестов:
+
+    def test_business_rule_expired_subscription ..  # абонемент истёк -> 409
+    def test_business_rule_duplicate_day ..........  # два занятия в один день -> 409
+    2 passed
+
+Запуск API:
+
+    uvicorn main:app --reload
+    Swagger:  http://127.0.0.1:8000/docs
+
+Примеры запросов и ответов:
+
+POST /clients
+  {"name":"Анна Сидорова","age":31,"phone":"990002","subscription_expire":"2025-01-15"}
+  -> 201 {"id":2,...}
+
+POST /trainings  (клиент с просроченным абонементом)
+  {"client_id":2,"trainer_id":1,"date":"2026-10-25","duration":60}
+  -> 409 {"detail":"Абонемент истёк до даты занятия"}
+
+POST /trainings  (второе занятие того же клиента в тот же день)
+  -> 409 {"detail":"У клиента уже есть занятие в этот день"}
+
+GET /statistics
+  {"clients_count":3,"trainings_count":1,"average_age":25.0,"active_subscriptions":2}
+
+GET /health
+  {"status":"healthy"}
+
+Реализовано: CRUD клиентов, запись на тренировки, три бизнес-правила,
+обработка ошибок с корректными HTTP-кодами, health check, автоматические
+pytest-тесты бизнес-правил, разделение Repository / Service.
+
+[запуск требует установленных fastapi, uvicorn, pytest]
+[exit code: 0]

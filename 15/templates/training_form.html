@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Запись на тренировку{% endblock %}
+{% block content %}
+<h1>Запись на тренировку</h1>
+{% if error %}<div class="error">{{ error }}</div>{% endif %}
+<form method="post" class="form vertical">
+  <label>Клиент
+    <select name="client_id" required>
+      {% for client in clients %}
+      <option value="{{ client.id }}">{{ client.name }}</option>
+      {% endfor %}
+    </select>
+  </label>
+  <label>Тренер
+    <select name="trainer_id" required>
+      {% for trainer in trainers %}
+      <option value="{{ trainer.id }}">{{ trainer.name }} ({{ trainer.specialty }})</option>
+      {% endfor %}
+    </select>
+  </label>
+  <label>Дата (ГГГГ-ММ-ДД)
+    <input name="date" required>
+  </label>
+  <label>Длительность (мин)
+    <input name="duration" type="number" min="15" max="240" value="60" required>
+  </label>
+  <button type="submit">Записать</button>
+</form>
+{% endblock %}

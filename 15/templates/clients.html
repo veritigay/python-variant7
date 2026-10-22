@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Клиенты{% endblock %}
+{% block content %}
+<h1>Клиенты</h1>
+<form method="get" class="filters">
+  <input name="search" placeholder="Поиск по имени" value="{{ request.args.get('search', '') }}">
+  <select name="sort">
+    <option value="">Сортировка</option>
+    <option value="age" {% if sort == 'age' %}selected{% endif %}>по возрасту</option>
+    <option value="name" {% if sort == 'name' %}selected{% endif %}>по имени</option>
+  </select>
+  <button type="submit">Применить</button>
+</form>
+<p><a href="/clients/create">Создать клиента</a></p>
+<table>
+  <tr><th>ID</th><th>Имя</th><th>Возраст</th><th>Телефон</th><th>Абонемент до</th></tr>
+  {% for client in clients %}
+  <tr>
+    <td>{{ client.id }}</td>
+    <td><a href="/clients/{{ client.id }}">{{ client.name }}</a></td>
+    <td>{{ client.age }}</td>
+    <td>{{ client.phone }}</td>
+    <td>{{ client.subscription_expire }}</td>
+  </tr>
+  {% else %}
+  <tr><td colspan="5">Клиентов пока нет.</td></tr>
+  {% endfor %}
+</table>
+{% endblock %}

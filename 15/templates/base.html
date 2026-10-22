@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>{% block title %}Фитнес-клуб{% endblock %}</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px auto; max-width: 800px; color: #333; }
+    nav a { margin-right: 12px; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ccc; padding: 6px 10px; text-align: left; }
+    .error { color: #a00; background: #fdd; padding: 8px; }
+    .card { border: 1px solid #ccc; padding: 12px; margin-bottom: 8px; }
+    label { display: block; margin: 6px 0; }
+  </style>
+</head>
+<body>
+<header>
+  <strong>Фитнес-клуб</strong>
+  <nav>
+    <a href="/">Главная</a>
+    <a href="/clients">Клиенты</a>
+    <a href="/trainings/book">Запись на тренировку</a>
+    <a href="/statistics">Статистика</a>
+  </nav>
+</header>
+<main>
+  {% if error %}<div class="error">{{ error }}</div>{% endif %}
+  {% block content %}{% endblock %}
+</main>
+</body>
+</html>

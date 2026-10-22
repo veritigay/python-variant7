@@ -1,0 +1,1097 @@
+{
+  "file": "C:\\Users\\New PC\\Documents\\MultiTool\\HomeChats\\Chat\\Python-variant7\\Практикум_Python_вариант7.docx",
+  "engine": "mammoth (chat preview) + block-level pagination",
+  "note": "Rendered with the chat preview's engine (mammoth) and block-level pagination: page numbers are approximate, headers/footers are not drawn, fonts and sizes come from the document's styles.",
+  "pageCount": 180,
+  "page": {
+    "widthPx": 1240,
+    "heightPx": 1754,
+    "widthIn": 8.27,
+    "heightIn": 11.69
+  },
+  "blocks": 6107,
+  "fonts": [],
+  "document": [],
+  "pages": [
+    {
+      "index": 0,
+      "blocks": 5,
+      "issues": [],
+      "png": "page-01.png"
+    },
+    {
+      "index": 1,
+      "blocks": 28,
+      "issues": [],
+      "png": "page-02.png"
+    },
+    {
+      "index": 2,
+      "blocks": 38,
+      "issues": [],
+      "png": "page-03.png"
+    },
+    {
+      "index": 3,
+      "blocks": 36,
+      "issues": [],
+      "png": "page-04.png"
+    },
+    {
+      "index": 4,
+      "blocks": 19,
+      "issues": [],
+      "png": "page-05.png"
+    },
+    {
+      "index": 5,
+      "blocks": 27,
+      "issues": [],
+      "png": "page-06.png"
+    },
+    {
+      "index": 6,
+      "blocks": 41,
+      "issues": [],
+      "png": "page-07.png"
+    },
+    {
+      "index": 7,
+      "blocks": 36,
+      "issues": [],
+      "png": "page-08.png"
+    },
+    {
+      "index": 8,
+      "blocks": 35,
+      "issues": [],
+      "png": "page-09.png"
+    },
+    {
+      "index": 9,
+      "blocks": 35,
+      "issues": [],
+      "png": "page-10.png"
+    },
+    {
+      "index": 10,
+      "blocks": 22,
+      "issues": [],
+      "png": "page-11.png"
+    },
+    {
+      "index": 11,
+      "blocks": 29,
+      "issues": [],
+      "png": "page-12.png"
+    },
+    {
+      "index": 12,
+      "blocks": 39,
+      "issues": [],
+      "png": "page-13.png"
+    },
+    {
+      "index": 13,
+      "blocks": 41,
+      "issues": [],
+      "png": "page-14.png"
+    },
+    {
+      "index": 14,
+      "blocks": 24,
+      "issues": [],
+      "png": "page-15.png"
+    },
+    {
+      "index": 15,
+      "blocks": 27,
+      "issues": [],
+      "png": "page-16.png"
+    },
+    {
+      "index": 16,
+      "blocks": 37,
+      "issues": [],
+      "png": "page-17.png"
+    },
+    {
+      "index": 17,
+      "blocks": 41,
+      "issues": [],
+      "png": "page-18.png"
+    },
+    {
+      "index": 18,
+      "blocks": 38,
+      "issues": [],
+      "png": "page-19.png"
+    },
+    {
+      "index": 19,
+      "blocks": 34,
+      "issues": [],
+      "png": "page-20.png"
+    },
+    {
+      "index": 20,
+      "blocks": 34,
+      "issues": [],
+      "png": "page-21.png"
+    },
+    {
+      "index": 21,
+      "blocks": 9,
+      "issues": [],
+      "png": "page-22.png"
+    },
+    {
+      "index": 22,
+      "blocks": 26,
+      "issues": [],
+      "png": "page-23.png"
+    },
+    {
+      "index": 23,
+      "blocks": 42,
+      "issues": [],
+      "png": "page-24.png"
+    },
+    {
+      "index": 24,
+      "blocks": 41,
+      "issues": [],
+      "png": "page-25.png"
+    },
+    {
+      "index": 25,
+      "blocks": 38,
+      "issues": [],
+      "png": "page-26.png"
+    },
+    {
+      "index": 26,
+      "blocks": 29,
+      "issues": [],
+      "png": "page-27.png"
+    },
+    {
+      "index": 27,
+      "blocks": 26,
+      "issues": [],
+      "png": "page-28.png"
+    },
+    {
+      "index": 28,
+      "blocks": 39,
+      "issues": [],
+      "png": "page-29.png"
+    },
+    {
+      "index": 29,
+      "blocks": 39,
+      "issues": [],
+      "png": "page-30.png"
+    },
+    {
+      "index": 30,
+      "blocks": 38,
+      "issues": [],
+      "png": "page-31.png"
+    },
+    {
+      "index": 31,
+      "blocks": 38,
+      "issues": [],
+      "png": "page-32.png"
+    },
+    {
+      "index": 32,
+      "blocks": 38,
+      "issues": [],
+      "png": "page-33.png"
+    },
+    {
+      "index": 33,
+      "blocks": 37,
+      "issues": [],
+      "png": "page-34.png"
+    },
+    {
+      "index": 34,
+      "blocks": 31,
+      "issues": [],
+      "png": "page-35.png"
+    },
+    {
+      "index": 35,
+      "blocks": 26,
+      "issues": [],
+      "png": "page-36.png"
+    },
+    {
+      "index": 36,
+      "blocks": 38,
+      "issues": [],
+      "png": "page-37.png"
+    },
+    {
+      "index": 37,
+      "blocks": 41,
+      "issues": [],
+      "png": "page-38.png"
+    },
+    {
+      "index": 38,
+      "blocks": 39,
+      "issues": [],
+      "png": "page-39.png"
+    },
+    {
+      "index": 39,
+      "blocks": 39,
+      "issues": [],
+      "png": "page-40.png"
+    },
+    {
+      "index": 40,
+      "blocks": 21,
+      "issues": [],
+      "png": "page-41.png"
+    },
+    {
+      "index": 41,
+      "blocks": 27,
+      "issues": [],
+      "png": "page-42.png"
+    },
+    {
+      "index": 42,
+      "blocks": 39,
+      "issues": [],
+      "png": "page-43.png"
+    },
+    {
+      "index": 43,
+      "blocks": 40,
+      "issues": [],
+      "png": "page-44.png"
+    },
+    {
+      "index": 44,
+      "blocks": 39,
+      "issues": [],
+      "png": "page-45.png"
+    },
+    {
+      "index": 45,
+      "blocks": 39,
+      "issues": [],
+      "png": "page-46.png"
+    },
+    {
+      "index": 46,
+      "blocks": 37,
+      "issues": [],
+      "png": "page-47.png"
+    },
+    {
+      "index": 47,
+      "blocks": 27,
+      "issues": [],
+      "png": "page-48.png"
+    },
+    {
+      "index": 48,
+      "blocks": 25,
+      "issues": [],
+      "png": "page-49.png"
+    },
+    {
+      "index": 49,
+      "blocks": 38,
+      "issues": [],
+      "png": "page-50.png"
+    },
+    {
+      "index": 50,
+      "blocks": 39,
+      "issues": [],
+      "png": "page-51.png"
+    },
+    {
+      "index": 51,
+      "blocks": 37,
+      "issues": [],
+      "png": "page-52.png"
+    },
+    {
+      "index": 52,
+      "blocks": 38,
+      "issues": [],
+      "png": "page-53.png"
+    },
+    {
+      "index": 53,
+      "blocks": 34,
+      "issues": [],
+      "png": "page-54.png"
+    },
+    {
+      "index": 54,
+      "blocks": 35,
+      "issues": [],
+      "png": "page-55.png"
+    },
+    {
+      "index": 55,
+      "blocks": 38,
+      "issues": [],
+      "png": "page-56.png"
+    },
+    {
+      "index": 56,
+      "blocks": 34,
+      "issues": [],
+      "png": "page-57.png"
+    },
+    {
+      "index": 57,
+      "blocks": 35,
+      "issues": [],
+      "png": "page-58.png"
+    },
+    {
+      "index": 58,
+      "blocks": 31,
+      "issues": [],
+      "png": "page-59.png"
+    },
+    {
+      "index": 59,
+      "blocks": 26,
+      "issues": [],
+      "png": "page-60.png"
+    },
+    {
+      "index": 60,
+      "blocks": 39,
+      "issues": [],
+      "png": "page-61.png"
+    },
+    {
+      "index": 61,
+      "blocks": 37,
+      "issues": [],
+      "png": "page-62.png"
+    },
+    {
+      "index": 62,
+      "blocks": 37,
+      "issues": [],
+      "png": "page-63.png"
+    },
+    {
+      "index": 63,
+      "blocks": 35,
+      "issues": [],
+      "png": "page-64.png"
+    },
+    {
+      "index": 64,
+      "blocks": 39,
+      "issues": [],
+      "png": "page-65.png"
+    },
+    {
+      "index": 65,
+      "blocks": 38,
+      "issues": [],
+      "png": "page-66.png"
+    },
+    {
+      "index": 66,
+      "blocks": 40,
+      "issues": [],
+      "png": "page-67.png"
+    },
+    {
+      "index": 67,
+      "blocks": 34,
+      "issues": [],
+      "png": "page-68.png"
+    },
+    {
+      "index": 68,
+      "blocks": 34,
+      "issues": [],
+      "png": "page-69.png"
+    },
+    {
+      "index": 69,
+      "blocks": 35,
+      "issues": [],
+      "png": "page-70.png"
+    },
+    {
+      "index": 70,
+      "blocks": 18,
+      "issues": [],
+      "png": "page-71.png"
+    },
+    {
+      "index": 71,
+      "blocks": 24,
+      "issues": [],
+      "png": "page-72.png"
+    },
+    {
+      "index": 72,
+      "blocks": 37,
+      "issues": [],
+      "png": "page-73.png"
+    },
+    {
+      "index": 73,
+      "blocks": 38,
+      "issues": [],
+      "png": "page-74.png"
+    },
+    {
+      "index": 74,
+      "blocks": 34,
+      "issues": [],
+      "png": "page-75.png"
+    },
+    {
+      "index": 75,
+      "blocks": 35,
+      "issues": [],
+      "png": "page-76.png"
+    },
+    {
+      "index": 76,
+      "blocks": 35,
+      "issues": [],
+      "png": "page-77.png"
+    },
+    {
+      "index": 77,
+      "blocks": 34,
+      "issues": [],
+      "png": "page-78.png"
+    },
+    {
+      "index": 78,
+      "blocks": 35,
+      "issues": [],
+      "png": "page-79.png"
+    },
+    {
+      "index": 79,
+      "blocks": 37,
+      "issues": [],
+      "png": "page-80.png"
+    },
+    {
+      "index": 80,
+      "blocks": 36,
+      "issues": [],
+      "png": "page-81.png"
+    },
+    {
+      "index": 81,
+      "blocks": 34,
+      "issues": [],
+      "png": "page-82.png"
+    },
+    {
+      "index": 82,
+      "blocks": 34,
+      "issues": [],
+      "png": "page-83.png"
+    },
+    {
+      "index": 83,
+      "blocks": 34,
+      "issues": [],
+      "png": "page-84.png"
+    },
+    {
+      "index": 84,
+      "blocks": 17,
+      "issues": [],
+      "png": "page-85.png"
+    },
+    {
+      "index": 85,
+      "blocks": 26,
+      "issues": [],
+      "png": "page-86.png"
+    },
+    {
+      "index": 86,
+      "blocks": 41,
+      "issues": [],
+      "png": "page-87.png"
+    },
+    {
+      "index": 87,
+      "blocks": 37,
+      "issues": [],
+      "png": "page-88.png"
+    },
+    {
+      "index": 88,
+      "blocks": 35,
+      "issues": [],
+      "png": "page-89.png"
+    },
+    {
+      "index": 89,
+      "blocks": 37,
+      "issues": [],
+      "png": "page-90.png"
+    },
+    {
+      "index": 90,
+      "blocks": 35,
+      "issues": [],
+      "png": "page-91.png"
+    },
+    {
+      "index": 91,
+      "blocks": 33,
+      "issues": [],
+      "png": "page-92.png"
+    },
+    {
+      "index": 92,
+      "blocks": 35,
+      "issues": [],
+      "png": "page-93.png"
+    },
+    {
+      "index": 93,
+      "blocks": 18,
+      "issues": [],
+      "png": "page-94.png"
+    },
+    {
+      "index": 94,
+      "blocks": 26,
+      "issues": [],
+      "png": "page-95.png"
+    },
+    {
+      "index": 95,
+      "blocks": 38,
+      "issues": [],
+      "png": "page-96.png"
+    },
+    {
+      "index": 96,
+      "blocks": 39,
+      "issues": [],
+      "png": "page-97.png"
+    },
+    {
+      "index": 97,
+      "blocks": 38,
+      "issues": [],
+      "png": "page-98.png"
+    },
+    {
+      "index": 98,
+      "blocks": 35,
+      "issues": [],
+      "png": "page-99.png"
+    },
+    {
+      "index": 99,
+      "blocks": 34,
+      "issues": [],
+      "png": "page-100.png"
+    },
+    {
+      "index": 100,
+      "blocks": 34,
+      "issues": [],
+      "png": "page-101.png"
+    },
+    {
+      "index": 101,
+      "blocks": 33,
+      "issues": [],
+      "png": "page-102.png"
+    },
+    {
+      "index": 102,
+      "blocks": 33,
+      "issues": [],
+      "png": "page-103.png"
+    },
+    {
+      "index": 103,
+      "blocks": 38,
+      "issues": [],
+      "png": "page-104.png"
+    },
+    {
+      "index": 104,
+      "blocks": 24,
+      "issues": [],
+      "png": "page-105.png"
+    },
+    {
+      "index": 105,
+      "blocks": 28,
+      "issues": [],
+      "png": "page-106.png"
+    },
+    {
+      "index": 106,
+      "blocks": 38,
+      "issues": [],
+      "png": "page-107.png"
+    },
+    {
+      "index": 107,
+      "blocks": 37,
+      "issues": [],
+      "png": "page-108.png"
+    },
+    {
+      "index": 108,
+      "blocks": 35,
+      "issues": [],
+      "png": "page-109.png"
+    },
+    {
+      "index": 109,
+      "blocks": 37,
+      "issues": [],
+      "png": "page-110.png"
+    },
+    {
+      "index": 110,
+      "blocks": 37,
+      "issues": [],
+      "png": "page-111.png"
+    },
+    {
+      "index": 111,
+      "blocks": 42,
+      "issues": [],
+      "png": "page-112.png"
+    },
+    {
+      "index": 112,
+      "blocks": 38,
+      "issues": [],
+      "png": "page-113.png"
+    },
+    {
+      "index": 113,
+      "blocks": 35,
+      "issues": [],
+      "png": "page-114.png"
+    },
+    {
+      "index": 114,
+      "blocks": 2,
+      "issues": [],
+      "png": "page-115.png"
+    },
+    {
+      "index": 115,
+      "blocks": 26,
+      "issues": [],
+      "png": "page-116.png"
+    },
+    {
+      "index": 116,
+      "blocks": 39,
+      "issues": [],
+      "png": "page-117.png"
+    },
+    {
+      "index": 117,
+      "blocks": 36,
+      "issues": [],
+      "png": "page-118.png"
+    },
+    {
+      "index": 118,
+      "blocks": 37,
+      "issues": [],
+      "png": "page-119.png"
+    },
+    {
+      "index": 119,
+      "blocks": 36,
+      "issues": [],
+      "png": "page-120.png"
+    },
+    {
+      "index": 120,
+      "blocks": 39,
+      "issues": [],
+      "png": "page-121.png"
+    },
+    {
+      "index": 121,
+      "blocks": 37,
+      "issues": [],
+      "png": "page-122.png"
+    },
+    {
+      "index": 122,
+      "blocks": 39,
+      "issues": [],
+      "png": "page-123.png"
+    },
+    {
+      "index": 123,
+      "blocks": 38,
+      "issues": [],
+      "png": "page-124.png"
+    },
+    {
+      "index": 124,
+      "blocks": 40,
+      "issues": [],
+      "png": "page-125.png"
+    },
+    {
+      "index": 125,
+      "blocks": 8,
+      "issues": [],
+      "png": "page-126.png"
+    },
+    {
+      "index": 126,
+      "blocks": 25,
+      "issues": [],
+      "png": "page-127.png"
+    },
+    {
+      "index": 127,
+      "blocks": 39,
+      "issues": [],
+      "png": "page-128.png"
+    },
+    {
+      "index": 128,
+      "blocks": 38,
+      "issues": [],
+      "png": "page-129.png"
+    },
+    {
+      "index": 129,
+      "blocks": 37,
+      "issues": [],
+      "png": "page-130.png"
+    },
+    {
+      "index": 130,
+      "blocks": 37,
+      "issues": [],
+      "png": "page-131.png"
+    },
+    {
+      "index": 131,
+      "blocks": 34,
+      "issues": [],
+      "png": "page-132.png"
+    },
+    {
+      "index": 132,
+      "blocks": 26,
+      "issues": [],
+      "png": "page-133.png"
+    },
+    {
+      "index": 133,
+      "blocks": 37,
+      "issues": [],
+      "png": "page-134.png"
+    },
+    {
+      "index": 134,
+      "blocks": 34,
+      "issues": [],
+      "png": "page-135.png"
+    },
+    {
+      "index": 135,
+      "blocks": 38,
+      "issues": [],
+      "png": "page-136.png"
+    },
+    {
+      "index": 136,
+      "blocks": 38,
+      "issues": [],
+      "png": "page-137.png"
+    },
+    {
+      "index": 137,
+      "blocks": 38,
+      "issues": [],
+      "png": "page-138.png"
+    },
+    {
+      "index": 138,
+      "blocks": 38,
+      "issues": [],
+      "png": "page-139.png"
+    },
+    {
+      "index": 139,
+      "blocks": 39,
+      "issues": [],
+      "png": "page-140.png"
+    },
+    {
+      "index": 140,
+      "blocks": 35,
+      "issues": [],
+      "png": "page-141.png"
+    },
+    {
+      "index": 141,
+      "blocks": 37,
+      "issues": [],
+      "png": "page-142.png"
+    },
+    {
+      "index": 142,
+      "blocks": 38,
+      "issues": [],
+      "png": "page-143.png"
+    },
+    {
+      "index": 143,
+      "blocks": 26,
+      "issues": [],
+      "png": "page-144.png"
+    },
+    {
+      "index": 144,
+      "blocks": 26,
+      "issues": [],
+      "png": "page-145.png"
+    },
+    {
+      "index": 145,
+      "blocks": 37,
+      "issues": [],
+      "png": "page-146.png"
+    },
+    {
+      "index": 146,
+      "blocks": 39,
+      "issues": [],
+      "png": "page-147.png"
+    },
+    {
+      "index": 147,
+      "blocks": 35,
+      "issues": [],
+      "png": "page-148.png"
+    },
+    {
+      "index": 148,
+      "blocks": 40,
+      "issues": [],
+      "png": "page-149.png"
+    },
+    {
+      "index": 149,
+      "blocks": 43,
+      "issues": [],
+      "png": "page-150.png"
+    },
+    {
+      "index": 150,
+      "blocks": 37,
+      "issues": [],
+      "png": "page-151.png"
+    },
+    {
+      "index": 151,
+      "blocks": 39,
+      "issues": [],
+      "png": "page-152.png"
+    },
+    {
+      "index": 152,
+      "blocks": 39,
+      "issues": [],
+      "png": "page-153.png"
+    },
+    {
+      "index": 153,
+      "blocks": 13,
+      "issues": [],
+      "png": "page-154.png"
+    },
+    {
+      "index": 154,
+      "blocks": 24,
+      "issues": [],
+      "png": "page-155.png"
+    },
+    {
+      "index": 155,
+      "blocks": 37,
+      "issues": [],
+      "png": "page-156.png"
+    },
+    {
+      "index": 156,
+      "blocks": 36,
+      "issues": [],
+      "png": "page-157.png"
+    },
+    {
+      "index": 157,
+      "blocks": 38,
+      "issues": [],
+      "png": "page-158.png"
+    },
+    {
+      "index": 158,
+      "blocks": 38,
+      "issues": [],
+      "png": "page-159.png"
+    },
+    {
+      "index": 159,
+      "blocks": 41,
+      "issues": [],
+      "png": "page-160.png"
+    },
+    {
+      "index": 160,
+      "blocks": 36,
+      "issues": [],
+      "png": "page-161.png"
+    },
+    {
+      "index": 161,
+      "blocks": 32,
+      "issues": [],
+      "png": "page-162.png"
+    },
+    {
+      "index": 162,
+      "blocks": 25,
+      "issues": [],
+      "png": "page-163.png"
+    },
+    {
+      "index": 163,
+      "blocks": 40,
+      "issues": [],
+      "png": "page-164.png"
+    },
+    {
+      "index": 164,
+      "blocks": 35,
+      "issues": [],
+      "png": "page-165.png"
+    },
+    {
+      "index": 165,
+      "blocks": 34,
+      "issues": [],
+      "png": "page-166.png"
+    },
+    {
+      "index": 166,
+      "blocks": 34,
+      "issues": [],
+      "png": "page-167.png"
+    },
+    {
+      "index": 167,
+      "blocks": 39,
+      "issues": [],
+      "png": "page-168.png"
+    },
+    {
+      "index": 168,
+      "blocks": 13,
+      "issues": [],
+      "png": "page-169.png"
+    },
+    {
+      "index": 169,
+      "blocks": 26,
+      "issues": [],
+      "png": "page-170.png"
+    },
+    {
+      "index": 170,
+      "blocks": 39,
+      "issues": [],
+      "png": "page-171.png"
+    },
+    {
+      "index": 171,
+      "blocks": 39,
+      "issues": [],
+      "png": "page-172.png"
+    },
+    {
+      "index": 172,
+      "blocks": 39,
+      "issues": [],
+      "png": "page-173.png"
+    },
+    {
+      "index": 173,
+      "blocks": 36,
+      "issues": [],
+      "png": "page-174.png"
+    },
+    {
+      "index": 174,
+      "blocks": 35,
+      "issues": [],
+      "png": "page-175.png"
+    },
+    {
+      "index": 175,
+      "blocks": 39,
+      "issues": [],
+      "png": "page-176.png"
+    },
+    {
+      "index": 176,
+      "blocks": 43,
+      "issues": [],
+      "png": "page-177.png"
+    },
+    {
+      "index": 177,
+      "blocks": 34,
+      "issues": [],
+      "png": "page-178.png"
+    },
+    {
+      "index": 178,
+      "blocks": 40,
+      "issues": [],
+      "png": "page-179.png"
+    },
+    {
+      "index": 179,
+      "blocks": 10,
+      "issues": [],
+      "png": "page-180.png"
+    }
+  ]
+}

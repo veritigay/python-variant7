@@ -1,0 +1,42 @@
+[CTX] Начало операции
+[LOG] вызван метод add_repair()
+[LOG] вызван метод add_repair()
+[LOG] вызван метод add_repair()
+[CTX] Завершение операции успешно
+
+=== Демонстрация декораторов ===
+ping
+ping
+
+=== Список ремонтов ===
+[PERFORMANCE] repair_cost: 0.0000 sec
+Заказ-наряд 1: Toyota Camry (А123ВС77), статус: диагностируется, стоимость: 9000.00 ₽
+[PERFORMANCE] repair_cost: 0.0000 sec
+Заказ-наряд 2: Hyundai Solaris (В456ЕР77), статус: готов, стоимость: 3800.00 ₽
+[PERFORMANCE] repair_cost: 0.0000 sec
+Заказ-наряд 3: Kia Rio (К789МН77), статус: ремонтируется, стоимость: 10500.00 ₽
+
+=== Наиболее часто заменяемые детали ===
+  тормозные колодки: 2 раз(а)
+  масляный фильтр: 1 раз(а)
+
+=== Статистика ===
+[PERFORMANCE] repair_cost: 0.0000 sec
+[PERFORMANCE] repair_cost: 0.0000 sec
+[PERFORMANCE] repair_cost: 0.0000 sec
+{'count': 3, 'ready': 1, 'avg_cost': 7766.67}
+
+=== Интроспекция ===
+=== ИНФОРМАЦИЯ ОБ ОБЪЕКТЕ ===
+Тип: Repair
+Является экземпляром Repair: True
+Атрибуты: ['_car', '_status', 'hour_rate', 'labor_hours', 'repair_cost', 'repair_id', 'set_status', 'status']
+Есть статус: True
+Статус: готов
+
+=== Обработка исключения ===
+Ошибка: Заказ-наряд 99 не найден
+[PERFORMANCE] repair_cost: 0.0000 sec
+Стоимость: 9000.00 ₽
+
+[exit code: 0]

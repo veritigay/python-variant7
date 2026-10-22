@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Фитнес-клуб — главная{% endblock %}
+{% block content %}
+<h1>Панель управления фитнес-клубом</h1>
+<div class="card">Клиентов: {{ stats.clients_count }}</div>
+<div class="card">Тренеров: {{ stats.trainers_count }}</div>
+<div class="card">Тренировок: {{ stats.trainings_count }}</div>
+<div class="card">Средний возраст клиентов: {{ stats.average_age }}</div>
+<p><a href="/clients">К списку клиентов</a></p>
+{% endblock %}
