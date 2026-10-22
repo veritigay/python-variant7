@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Базы данных (формируются при запуске)
+*.db
+
+# Служебные артефакты документа
+*-verify/
+report.build.cjs
+
+# Служебный генератор демо
+gen_demo.py
